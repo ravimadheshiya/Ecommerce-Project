@@ -17,7 +17,7 @@ public class HomeController {
     @GetMapping
     public ResponseEntity<ApiResponse> home(){
         ApiResponse apiResponse = new ApiResponse();
-        apiResponse.setMessage("Ecommerce multi vendor system");
+        apiResponse.setMessage("Fash Nova");
         apiResponse.setStatus(true);
         return new ResponseEntity<>(apiResponse, HttpStatus.ACCEPTED);
     }
